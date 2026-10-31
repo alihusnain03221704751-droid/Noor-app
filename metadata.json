@@ -1,0 +1,10 @@
+{
+  "name": "Noor Islamic App",
+  "description": "Comprehensive Islamic application with authentic Quran Majeed (with Urdu translation and 16-line layout), Namaz timings with Azan notifications, Namaz & Azkaar, Qibla compass, and locked future upgrades roadmap.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

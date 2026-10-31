@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-arabic {
+    font-family: 'Amiri', 'Scheherazade New', 'Noto Sans Arabic', serif;
+  }
+  .font-quran {
+    font-family: 'Scheherazade New', 'Amiri', 'Noto Sans Arabic', serif;
+  }
+  .font-urdu {
+    font-family: 'Noto Nastaliq Urdu', 'Noto Sans Arabic', serif;
+  }
+  .font-display {
+    font-family: 'Cormorant Garamond', 'Amiri', serif;
+  }
+}
+
+/* Luxury Islamic Holy Quran icon palette: deep forest green, vivid glowing emerald, gold filigree accents */
+.bg-warm-canvas {
+  background: radial-gradient(circle at 50% 0%, #fbfdfc 0%, #f4f8f5 50%, #eaf2ed 100%);
+}
+
+.bg-emerald-deep {
+  background: linear-gradient(135deg, #0c2417 0%, #153b26 50%, #0d281a 100%);
+}
+
+.bg-quran-hero {
+  background: radial-gradient(ellipse at 50% -20%, #18482e 0%, #0c2417 65%, #06150d 100%);
+}
+
+.border-warm-gold {
+  border-color: rgba(212, 175, 55, 0.4);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(38, 74, 57, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(38, 74, 57, 0.45);
+}
+
+/* 16-line traditional Quran grid styling */
+.quran-16-line-text {
+  font-family: 'Scheherazade New', 'Amiri', serif;
+  line-height: 2.15;
+  text-align: justify;
+  text-align-last: center;
+  word-spacing: 0.12em;
+}
